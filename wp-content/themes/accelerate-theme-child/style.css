@@ -49,3 +49,52 @@
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+
+
+.case-study {
+  display: flex;
+  flex-direction: row;
+}
+
+.case-study .case-study-sidebar {
+  width: 30%;
+  margin-top: 60px;
+  padding-right: 40px;
+}
+
+.case-study .case-study-sidebar .title {
+  font-weight: normal;
+}
+
+.case-study .case-study-sidebar .services {
+	color: #9A9A9A;
+  font-size: 80%;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.case-study .case-study-sidebar .client {
+  font-size: 80%;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.case-study .case-study-sidebar p {
+  font-size: 80%;
+}
+
+.case-study .case-study-sidebar a {
+  font-weight: bold;
+}
+
+.case-study .case-study-images {
+  width: 70%;
+}
+
+.case-study .case-study-images img {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
