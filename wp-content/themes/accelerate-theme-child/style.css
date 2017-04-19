@@ -98,3 +98,35 @@
   height: auto;
   margin-top: 60px;
 }
+
+.featured-work {
+	text-align: center;
+}
+
+.featured-work .site-content .featured-work-items {
+  display: inline-block;
+}
+
+.featured-work-item {
+	float: left;
+	margin-right: 20px;
+}
+
+.featured-work-item figure {
+  height: 175px;
+  width: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.featured-work-item figure img {
+   display: block;
+   min-width: 100%;
+   min-height: 100%;
+   margin: auto;
+   position: absolute;
+   top: -100%;
+   right: -100%;
+   bottom: -100%;
+   left: -100%;
+}

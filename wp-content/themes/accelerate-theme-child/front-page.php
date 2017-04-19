@@ -25,6 +25,34 @@ get_header(); ?>
 	</div><!-- .container -->
 </section><!-- .home-page -->
 
+<section class="featured-work">
+	<div class="site-content">
+		<h4>Featured Work</h4>
+		
+        <div class="featured-work-items">
+		<?php 
+			query_posts("posts_per_page=3&post_type=case_studies");
+			
+			while (have_posts()) {
+				
+				the_post(); ?>
+			
+			<div class="featured-work-item">	
+				<figure>
+					<?php echo wp_get_attachment_image(get_field("image_1"), "medium"); ?>
+				</figure>
+			
+				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+			</div>
+				
+		<?php 		
+			}
+			
+			wp_reset_query(); ?>
+		</div>
+	</div>
+</section>
+
 <section class="recent-posts">
 	<div class="site-content">
 		<div class="blog-post">
