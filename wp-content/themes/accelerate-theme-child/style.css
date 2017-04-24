@@ -130,3 +130,12 @@
    bottom: -100%;
    left: -100%;
 }
+
+.menu-top-nav-container {
+	display: inline-block;
+}
+
+.nav-menu .menu-item {
+	float: left;
+  margin-right: 40px;
+}
