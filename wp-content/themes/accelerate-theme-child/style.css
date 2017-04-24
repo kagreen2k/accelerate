@@ -68,7 +68,7 @@
 }
 
 .case-study .case-study-sidebar .services {
-	color: #9A9A9A;
+  color: #9A9A9A;
   font-size: 80%;
   font-weight: normal;
   margin-top: 10px;
@@ -100,7 +100,7 @@
 }
 
 .featured-work {
-	text-align: center;
+  text-align: center;
 }
 
 .featured-work .site-content .featured-work-items {
@@ -108,8 +108,8 @@
 }
 
 .featured-work-item {
-	float: left;
-	margin-right: 20px;
+  float: left;
+  margin-right: 20px;
 }
 
 .featured-work-item figure {
@@ -129,4 +129,13 @@
    right: -100%;
    bottom: -100%;
    left: -100%;
+}
+
+.menu-top-nav-container {
+  display: inline-block;
+}
+
+.nav-menu .menu-item {
+  float: left;
+  margin-right: 40px;
 }
