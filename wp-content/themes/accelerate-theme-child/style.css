@@ -139,3 +139,38 @@
   float: left;
   margin-right: 40px;
 }
+
+/* contact form */
+
+.page-contact-us {
+	margin-bottom: 80px;
+	margin-left: 300px;
+	margin-right: 200px;
+	margin-top: 80px;
+	
+	font-size: 80%;
+	width: 45%;
+}
+
+.page-contact-us .nf-field-label label {
+	font-weight: normal !important;
+}
+
+.page-contact-us .name-field {
+	float: left;
+	width: 50%;
+	margin-right: 20px;
+}
+
+.page-contact-us .email-field {
+  display: inline;
+  width: 50%;
+}
+
+.page-contact-us .submit-button {
+	float: right;
+  height: 50px;
+  width: 200px !important;
+  background-color: #45ac9d;
+  color: white;
+}
