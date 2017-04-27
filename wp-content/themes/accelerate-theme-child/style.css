@@ -9,145 +9,144 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  accelerate-theme-child
 */
-
 @import url("../accelerate-theme/style.css");
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center/cover
+		rgba(0, 0, 0, 0);
 }
 
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+	background: none repeat scroll 0 0 #45ac9d;
 }
 
 .button {
-  background: none repeat scroll 0 0 #45ac9d;
+	background: none repeat scroll 0 0 #45ac9d;
 }
 
-
 .blog-post {
-  width: 50%;
+	width: 50%;
 }
 
 .blog-post h4 {
-  font-size: 16px;
-  font-family: 'Montserrat';
-  color: #a6a6a6;
-  text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
 }
 
 .blog-post h2 {
-  font-size: 24px;
-  font-family: 'Montserrat';
-  font-weight: bold;
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
 }
 
 .blog-post .read-more-link {
-  font-size: 16px;
-  font-family: 'Montserrat';
-  font-weight: bold;
-  color: #45ac9d;
-  text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
 }
 
-
-
 .case-study {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .case-study .case-study-sidebar {
-  width: 30%;
-  margin-top: 60px;
-  padding-right: 40px;
+	width: 30%;
+	margin-top: 60px;
+	padding-right: 40px;
 }
 
 .case-study .case-study-sidebar .title {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 .case-study .case-study-sidebar .services {
-  color: #9A9A9A;
-  font-size: 80%;
-  font-weight: normal;
-  margin-top: 10px;
+	color: #9A9A9A;
+	font-size: 80%;
+	font-weight: normal;
+	margin-top: 10px;
 }
 
 .case-study .case-study-sidebar .client {
-  font-size: 80%;
-  font-style: normal;
-  font-weight: normal;
-  margin-top: 10px;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 10px;
 }
 
 .case-study .case-study-sidebar p {
-  font-size: 80%;
+	font-size: 80%;
 }
 
 .case-study .case-study-sidebar a {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .case-study .case-study-images {
-  width: 70%;
+	width: 70%;
 }
 
 .case-study .case-study-images img {
-  width: 100%;
-  height: auto;
-  margin-top: 60px;
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
 }
 
 .featured-work {
-  text-align: center;
+	text-align: center;
+}
+
+.featured-work h4 {
+	margin-bottom: 35px;
 }
 
 .featured-work .site-content .featured-work-items {
-  display: inline-block;
+	display: inline-block;
 }
 
 .featured-work-item {
-  float: left;
-  margin-right: 20px;
+	float: left;
+	margin-right: 35px;
 }
 
 .featured-work-item figure {
-  height: 175px;
-  width: 250px;
-  overflow: hidden;
-  position: relative;
+	height: 175px;
+	width: 250px;
+	overflow: hidden;
+	position: relative;
 }
 
 .featured-work-item figure img {
-   display: block;
-   min-width: 100%;
-   min-height: 100%;
-   margin: auto;
-   position: absolute;
-   top: -100%;
-   right: -100%;
-   bottom: -100%;
-   left: -100%;
+	display: block;
+	min-width: 100%;
+	min-height: 100%;
+	margin: auto;
+	position: absolute;
+	top: -100%;
+	right: -100%;
+	bottom: -100%;
+	left: -100%;
 }
 
 .menu-top-nav-container {
-  display: inline-block;
+	display: inline-block;
 }
 
 .nav-menu .menu-item {
-  float: left;
-  margin-right: 40px;
+	float: left;
+	margin-right: 40px;
 }
 
 /* contact form */
-
 .page-contact-us {
 	margin-bottom: 80px;
 	margin-left: 300px;
 	margin-right: 200px;
 	margin-top: 80px;
-	
 	font-size: 80%;
 	width: 45%;
 }
@@ -163,14 +162,119 @@
 }
 
 .page-contact-us .email-field {
-  display: inline;
-  width: 50%;
+	display: inline;
+	width: 50%;
 }
 
 .page-contact-us .submit-button {
 	float: right;
-  height: 50px;
-  width: 200px !important;
-  background-color: #45ac9d;
-  color: white;
+	height: 50px;
+	width: 200px !important;
+	background-color: #45ac9d;
+	color: white;
+}
+
+.page-about {
+	margin: 0px;
+	margin-bottom: 100px;
+	padding: 0px;
+}
+
+.page-about .services {
+	padding: 0px;
+}
+
+.about-banner {
+	background-image: url("img/taxi-photo.jpg");
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0);
+	background-position: bottom;
+	background-attachment: scroll;
+	background-size: center/cover;
+	min-width: 100%;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.about-banner div {
+	min-width: 450px;
+	max-width: 450px;
+	/* horizontal centering is done with this */
+	margin: 0 auto;
+	color: white;
+	font-size: larger;
+}
+
+.about-banner .company-name {
+	color: #45ac9d;
+}
+
+.page-about .service-intro {
+	text-align: center;
+	font-size: 90%;
+}
+
+.page-about .service-intro-title {
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.page-about .service-intro-text {
+	min-width: 60%;
+	max-width: 60%;
+	/* horizontal centering is done with this */
+	margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.page-about .service-items {
+	margin-right: 120px;
+	margin-left: 120px;
+}
+
+.page-about .service-item {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.page-about .service-items:nth-child(even) figure {
+	float: right;
+	margin-left: 40px;
+}
+
+.page-about .service-item:nth-child(odd) figure {
+	float: left;
+	margin-right: 40px;
+}
+
+.page-about .service-text {
+	display: table-cell;
+	font-size: 90%;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+}
+
+.about-contact-link {
+    /* horizontal centering is done with this */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-contact-link div {
+    border-top: 1px dotted #e3e1e1;
+    padding-top: 40px;
+}
+
+.about-contact-link span {
+	font-size: larger;
+	font-weight: bold;
+	margin-right: 70px;
+}
+
+.about-contact-link a {
+
 }
