@@ -278,3 +278,24 @@
 .about-contact-link a {
 
 }
+
+.error-404 {
+    background-image: url("img/minion.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.error-404 div {
+	width: 100%;
+	height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 650px;
+}
+
+.error-404 div h1,h2 {
+	margin: 0;
+}
