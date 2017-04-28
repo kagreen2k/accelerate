@@ -41,7 +41,7 @@
 	font-weight: bold;
 }
 
-.blog-post .read-more-link {
+.blog-post .read-more-link,.follow-link {
 	font-size: 16px;
 	font-family: 'Montserrat';
 	font-weight: bold;
@@ -226,8 +226,8 @@
 	max-width: 60%;
 	/* horizontal centering is done with this */
 	margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .page-about .service-items {
@@ -259,14 +259,14 @@
 }
 
 .about-contact-link {
-    /* horizontal centering is done with this */
-    margin: 0 auto;
-    text-align: center;
+	/* horizontal centering is done with this */
+	margin: 0 auto;
+	text-align: center;
 }
 
 .about-contact-link div {
-    border-top: 1px dotted #e3e1e1;
-    padding-top: 40px;
+	border-top: 1px dotted #e3e1e1;
+	padding-top: 40px;
 }
 
 .about-contact-link span {
@@ -276,26 +276,57 @@
 }
 
 .about-contact-link a {
-
+	
 }
 
 .error-404 {
-    background-image: url("img/minion.jpg");
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0);
-    background-size: cover;
-    background-position: center;
-    height: 800px;
+	background-image: url("img/minion.jpg");
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
 }
 
 .error-404 div {
 	width: 100%;
 	height: 100%;
-    color: white;
-    text-align: center;
-    padding-top: 650px;
+	color: white;
+	text-align: center;
+	padding-top: 650px;
 }
 
-.error-404 div h1,h2 {
+.error-404 div h1, h2 {
 	margin: 0;
 }
+
+#recent-post-and-tweet {
+	display: flex;
+}
+
+#recent-post-and-tweet h3 {
+	margin-top: 36px;
+	margin-bottom: 12px;
+}
+
+#recent-post-and-tweet a {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+a.follow-link {
+	padding-top: 15px;
+	padding-left: 40px;
+	color: #45ac9d !important;
+}
+
+#recent-post-and-tweet aside {
+	margin-bottom: 25px;
+}
+
+#recent-post-and-tweet div {
+	margin-left: 20px;
+}
+
