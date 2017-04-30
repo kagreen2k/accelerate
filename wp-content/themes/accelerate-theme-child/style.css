@@ -343,3 +343,13 @@
 	color: white;
 	background: #45ac9d;
 }
+
+.simple-social-icons h3 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.simple-social-icons ul {
+	padding-left: 35px !important;
